@@ -96,7 +96,8 @@ function App() {
   }
 
   return (
-    <main className="main-container">
+    <main className="main">
+      <h1 className="header">MS Apps</h1>
       {isPopUpCategoryOpen && isPopUpCategoryOpen.length !== 0 && (
         <Category
           currentCategory={category}
