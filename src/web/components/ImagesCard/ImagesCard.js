@@ -33,13 +33,13 @@ function ImagesCardList(props) {
           Next
         </button>
       </div>
-      <ul className="listImages">
+      <div className="listImages">
         {imagesToRender.map((card) => (
           <li key={card.id}>
             <Card handleImageClick={props.handleImageClick} card={card} />
           </li>
         ))}
-      </ul>
+      </div>
     </section>
   );
 }

@@ -9,7 +9,7 @@ function Card(props) {
   return (
     <button onClick={handleImageClick} className="card">
       <img
-        className="card-image"
+        className="cardImage"
         alt={props.card.tags}
         src={props.card.webformatURL}
       />
