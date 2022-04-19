@@ -41,10 +41,9 @@ function App() {
   }, [dispatch, category, pageNum, sortBy]);
 
   // Controls the next/prev buttons states.
-  // These states toggle the styles and the disable attribute (disable while loading info)
+  // These states toggle the styles and the disable attribute
   // of the button.
-  // The states are compared to the maxPage variable that is received from my Rest API
-
+  // The states are compared to the maxPage variable that is received from from the API
   React.useEffect(() => {
     const nextBtnState = pageNum >= maxPage;
     setIsNextBtnDisabled(nextBtnState);
