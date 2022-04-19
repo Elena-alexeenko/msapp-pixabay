@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(#3ed45e, #4210b8);
+  }
+  
+  
+  .main-container {
+    width: 100%;
+    min-height: 800px;
+    padding-bottom: 20px;
+  }

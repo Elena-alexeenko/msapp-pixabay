@@ -1,0 +1,70 @@
+.cardlist {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  margin: 14px 0;
+  font-weight: 500;
+  color:white;
+  margin: 35px 0 0;
+  font-family: 'Montserrat', sans-serif, serif;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.description {
+  font-family: 'Open sans', sans-serif, serif;
+  font-weight: 400;
+  font-size: 14px;
+  margin: 10px 10px;
+  color: white;
+}
+.buttonsContainer {
+  margin: 10px 0 0;
+  width: 90%;
+  max-width: 1280px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cardButtons {
+  border-radius: 20px;
+  margin: 10px 0 0;
+  background-color: black;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-family: 'Open sans', sans-serif, serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: white;
+  transition: opacity 0.2s linear;
+}
+
+.cardButtons:hover {
+  opacity: .7;
+}
+
+.cardButtonsDisabled {
+  opacity: .7;
+  cursor: auto;
+  background-color: grey;
+}
+
+.listImages {
+  width: 90%;
+  max-width: 1280px;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: repeat(1, 1fr);
+  row-gap: 16px;
+  column-gap: 16px;
+  margin: 20px 0 0;
+  padding: 0;
+}
+

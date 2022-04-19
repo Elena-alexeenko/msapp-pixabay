@@ -1,0 +1,28 @@
+.modalInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2em;
+    box-sizing: 70%;
+  }
+  
+  .modalImage {
+    width: 60%;
+    height: 60%;
+    border-radius: 5px;
+  }
+  
+  .modalButton {
+    margin-top: 6px;
+    background-color:darkviolet;
+    color:white;
+  }
+  .modalText {
+    font-family: 'Open sans', sans-serif, serif;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 2px 0 0;
+    
+}
