@@ -4,7 +4,7 @@ module.exports.validateGetImage = (req, res, next) => {
   const { category, pageNum, perPage } = req.query;
   if (category === null) throw new console.error("category can not be empty");
   if (!pageNum || pageNum < 1) throw new console.error("invalid page number");
-  if (!perPage || perPage < 3 || perPage > 200)
-    throw new console.error("items per page should be between 3 and 200");
+  if (!perPage || perPage > 3)
+    throw new console.error("items per page should be larger than 3 ");
   next();
 };
