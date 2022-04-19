@@ -22,7 +22,7 @@ const options = [
   },
 ];
 
-function PopupCategory(props) {
+function PopUpCategory(props) {
   const [categoryToSearch, setCategoryToSearch] = React.useState("");
   const [sortBy, setSortBy] = React.useState("");
   const { isPopUpCategoryOpen } = useSelector((state) => state);
@@ -94,4 +94,4 @@ function PopupCategory(props) {
   );
 }
 
-export default PopupCategory;
+export default PopUpCategory;

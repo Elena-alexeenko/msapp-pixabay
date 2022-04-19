@@ -14,7 +14,6 @@ module.exports.query = (queryData) => {
       per_page: perPage,
     },
   };
-  console.log(options);
   if (order) {
     options.params.order = order;
   }

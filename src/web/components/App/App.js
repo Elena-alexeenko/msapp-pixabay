@@ -1,6 +1,5 @@
 import React from "react";
 import "./App.css";
-//import Header from "../Header/Header";
 import ImagesCardList from "../ImagesCard/ImagesCard";
 import Category from "../CategoryPopUp/Category";
 import { PopUpInfo } from "../InfoPopUp/InfoPopUp";
