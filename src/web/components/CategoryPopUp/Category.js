@@ -57,9 +57,7 @@ function PopupCategory(props) {
         <form className="modalForm" onSubmit={handleSubmit}>
           <div className="container">
             <div className="selectContainer">
-              <label className="selectionText">
-                Select a category to view:
-              </label>
+              <label className="selectionText">Select a category:</label>
               <select
                 onChange={handleCategoryChange}
                 value={categoryToSearch}
@@ -89,7 +87,7 @@ function PopupCategory(props) {
               <label className="radioTitle">Latest</label>
             </div>
           </div>
-          <button className="modalSubmit">Search this category</button>
+          <button className="modalSubmit">Search category</button>
         </form>
       </Modal>
     </>
