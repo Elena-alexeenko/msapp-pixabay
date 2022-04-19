@@ -13,12 +13,16 @@ const options = [
     value: "cats",
   },
   {
-    label: "flower",
-    value: "flower",
+    label: "work",
+    value: "work",
   },
   {
     label: "sport",
     value: "sport",
+  },
+  {
+    label: "flower",
+    value: "flower",
   },
 ];
 
